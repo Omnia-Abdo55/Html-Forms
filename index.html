@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up </title>
+</head>
+<body>
+    <form action="" method="post" novalidate>
+<fieldset> <legend>Sign-Up</legend>
+<br>
+<label for="name">Full Name :</label>
+<input id="name"   type="text" placeholder="Enter your full name" required minlength="3" maxlength="20">
+<br>
+<br>
+
+<label for="email">Email : </label>
+<input  id="email" type="email" required autocomplete="email"placeholder="Enter your email">
+<br>
+<br>
+<label for="pass">Password : </label>
+<input id="pass" type="password" required minlength="8" placeholder="Enter your password">
+<br>
+<br>
+<label for="phone">Phone : </label>
+<input id="phone" type="tel" placeholder="Enter your phone">
+<br>
+<br>
+<label for="url">Website :</label>
+<input id="url" type="url" placeholder="Enter your website">
+<br>
+<br>
+<label for="BD">Birth Date :</label>
+<input id="BD" type="date" min="1990-01-01" max="2015-12-31">
+<br>
+<br>
+
+<label>Gender :</label>
+
+<input id="male" type="radio" name="gender">
+<label for="male">Male</label>
+
+<input id="female" type="radio" name="gender">
+<label for="female">Female</label>
+
+<input id="other" type="radio" name="gender">
+<label for="other">Other</label>
+<br>
+<br>
+<label>
+<input type="checkbox"  name="newsletter"> Subscribe to Newsletter
+</label><br>
+<br>
+
+
+<label>Country :</label>
+<select>
+    <option>Egypt</option>
+    <option>USA</option>
+    <option>Germany</option>
+</select><br><br>
+
+
+<label>Favorite Language :</label>
+<input list="languages" placeholder="Select">
+<br>
+<datalist id="languages">
+    <option value="HTML">
+    <option value="CSS">
+    <option value="JavaScript">
+</datalist><br>
+
+
+
+
+<input type="submit" value="Sign Up">
+<input type="reset" value="Reset">
+
+
+
+
+
+</fieldset>
+    </form>
+</body>
+</html>
